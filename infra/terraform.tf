@@ -6,8 +6,9 @@ terraform {
     }
   }
   cloud {
-    workspaces {
-      name = "learn-terraform-dynamic-credentials"
-    }
+     organization = "rajesh6"
+     workspaces {
+       name = "infra"
+     }
   }
 }
